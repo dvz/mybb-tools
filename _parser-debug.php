@@ -1,5 +1,17 @@
 <?php
 
+/*
+>
+<p id="fallback_message">
+    Upload this file to the forum's main directory, and open it in a web browser (<code>example.com/_parser-debug.php</code>).
+</p>
+<style>
+body { font-size: 0; }
+#fallback_message { font-size: initial; }
+</style>
+<!--
+*/
+
 define('TOOL_TITLE', 'Parser Validation Debug');
 define('TOOL_VERSION', '1.0');
 
