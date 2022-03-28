@@ -13,7 +13,7 @@ body { font-size: 0; }
 */
 
 define('TOOL_TITLE', 'Parser Validation Debug');
-define('TOOL_VERSION', '1.0');
+define('TOOL_VERSION', '1.0.1');
 
 function integrated()
 {
@@ -115,7 +115,7 @@ function getEntriesFromRawErrors($string)
                 array\ \(\s*
                     'sourceHtmlEntities'\ =>\ '(?<sourceHtmlEntities>.*?)',\s*
                     'outputHtmlEntities'\ =>\ '(?<outputHtmlEntities>.*?)',\s*
-                    'errors'\ =>\ \s*
+                    'errors'\ =>\s*
                         array\ \(\s*
                             (?<errors>.*?)
                         \),\s*
